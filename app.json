@@ -13,16 +13,31 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pragnan143.Project_Alarm"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo-notifications": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "sound": "./music/cool.mp3"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "929bb693-ff02-43bf-b4f6-f635fc90c65e"
+      }
     }
   }
 }
